@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/termsFragment"
+        android:title="Terms &amp; Conditions"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/settingFragment"
+        android:title="setting"
+        android:menuCategory="secondary"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/rtl"
+        android:title="rtl"
+        android:menuCategory="secondary"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/ltr"
+        android:title="ltr"
+        android:menuCategory="secondary"
+        app:showAsAction="never"/>
+
+</menu>
